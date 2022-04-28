@@ -1,0 +1,140 @@
+{
+	"arial": {
+		"prefix": "arial",
+		"body": "font-family: Arial, sans-serif;\n",
+		"description": "",
+		"scope": ""
+	},
+	"boilerplate": {
+		"prefix": "boilerplate",
+		"body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\n  <title>$1</title>\n\n  $2 \n\n</head>\n<body style=\"margin:0; padding:0; background-color:#F2F2F2;\">\n  <center>\n    <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#F2F2F2\">\n        <tr>\n            <td align=\"center\" valign=\"top\">\n                \n \t\t\t$3              \n \n            </td>\n        </tr>\n    </table>\n  </center>\n</body>\n</html>\n",
+		"description": "",
+		"scope": ""
+	},
+	"button": {
+		"prefix": "button",
+		"body": "\n<table width=\"200\" height=\"44\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" bgcolor=\"#2b3a63\" style=\"border-radius:4px;\">\n  <tr>\n    <td align=\"center\" valign=\"middle\" height=\"44\" style=\"font-family: Arial, sans-serif; font-size:14px; font-weight:bold;\">\n      <a href=\"$1\" target=\"_blank\" style=\"font-family: Arial, sans-serif; color:#ffffff; display: inline-block; text-decoration: none; line-height:44px; width:200px; font-weight:bold;\">$2</a>\n    </td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"content": {
+		"prefix": "content",
+		"body": "<table class=\"container\" width=\"$1\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n  <tr>\n    <td align=\"center\" valign=\"top\">\n      $2\n    </td>               \n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"css": {
+		"prefix": "css",
+		"body": "<style type=\"text/css\">\n  /* CLIENT-SPECIFIC STYLES */\nbody, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }\ntable, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }\nimg { -ms-interpolation-mode: bicubic; }\n\n/* RESET STYLES */\nimg { border: 0; outline: none; text-decoration: none; }\ntable { border-collapse: collapse !important; }\nbody { margin: 0 !important; padding: 0 !important; width: 100% !important; }\n\n/* iOS BLUE LINKS */\na[x-apple-data-detectors] {\n  color: inherit !important;\n  text-decoration: none !important;\n  font-size: inherit !important;\n  font-family: inherit !important;\n  font-weight: inherit !important;\n  line-height: inherit !important;\n}\n\n/* ANDROID CENTER FIX */\ndiv[style*=\"margin: 16px 0;\"] { margin: 0 !important; }\n\n/* MEDIA QUERIES */\n@media all and (max-width:639px){ \n  .wrapper{ width:320px!important; padding: 0 !important; }\n  .container{ width:300px!important;  padding: 0 !important; }\n  .mobile{ width:300px!important; display:block!important; padding: 0 !important; }\n  .img{ width:100% !important; height:auto !important; }\n  *[class=\"mobileOff\"] { width: 0px !important; display: none !important; }\n  *[class*=\"mobileOn\"] { display: block !important; max-height:none !important; }\n}\n</style>\n",
+		"description": "",
+		"scope": ""
+	},
+	"fgrid1": {
+		"prefix": "fgrid1",
+		"body": "\n<table width=\"640\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"max-width:640px; width:100%;\" bgcolor=\"#FFFFFF\">\n  <tr>\n    <td align=\"center\" valign=\"top\" style=\"padding:10px;\">\n      \n      <table width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"max-width:600px; width:100%;\">\n        <tr>\n          <td align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $1\n          </td>\n        </tr>\n      </table>\n\n    </td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"fgrid2": {
+		"prefix": "fgrid2",
+		"body": "\n<table width=\"640\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"max-width:640px; width:100%;\" bgcolor=\"#FFFFFF\">\n  <tr>\n    <td align=\"center\" valign=\"top\" style=\"padding:10px;\">\n      \n      <table width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"max-width:600px; width:100%;\">\n        <tr>\n          <td width=\"300\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $1\n          </td>\n          <td width=\"300\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $2\n          </td>\n        </tr>\n      </table>\n\n    </td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"fgrid3": {
+		"prefix": "fgrid3",
+		"body": "\n<table width=\"640\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"max-width:640px; width:100%;\" bgcolor=\"#FFFFFF\">\n  <tr>\n    <td align=\"center\" valign=\"top\" style=\"padding:10px;\">\n      \n      <table width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"max-width:600px; width:100%;\">\n        <tr>\n          <td width=\"200\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $1\n          </td>\n          <td width=\"200\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $2\n          </td>\n          <td width=\"200\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $3\n          </td>\n        </tr>\n      </table>\n\n    </td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"fgrid4": {
+		"prefix": "fgrid4",
+		"body": "\n<table width=\"640\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"max-width:640px; width:100%;\" bgcolor=\"#FFFFFF\">\n  <tr>\n    <td align=\"center\" valign=\"top\" style=\"padding:10px;\">\n      \n      <table width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"max-width:600px; width:100%;\">\n        <tr>\n          <td width=\"150\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $1\n          </td>\n          <td width=\"150\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $2\n          </td>\n          <td width=\"150\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $3\n          </td>\n          <td width=\"150\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $4\n          </td>\n        </tr>\n      </table>\n\n    </td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"fgrid5": {
+		"prefix": "fgrid5",
+		"body": "\n<table width=\"640\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"max-width:640px; width:100%;\" bgcolor=\"#FFFFFF\">\n  <tr>\n    <td align=\"center\" valign=\"top\" style=\"padding:10px;\">\n      \n      <table width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\" style=\"max-width:600px; width:100%;\">\n        <tr>\n          <td width=\"120\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $1\n          </td>\n          <td width=\"120\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $2\n          </td>\n          <td width=\"120\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $3\n          </td>\n          <td width=\"120\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $4\n          </td>\n          <td width=\"120\" align=\"center\" valign=\"top\" style=\"padding:10px;\">\n            $5\n          </td>\n        </tr>\n      </table>\n\n    </td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"hgrid1": {
+		"prefix": "hgrid1",
+		"body": "\n<tr>\n  <td align=\"center\" height=\"100%\" valign=\"top\" width=\"100%\">\n    <!--[if (gte mso 9)|(IE)]>\n    <table align=\"center\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"600\">\n    <tr>\n    <td align=\"center\" valign=\"top\" width=\"600\">\n    <![endif]-->\n      <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"max-width:600px;\" bgcolor=\"#ffffff\">\n        <tr>\n          <td align=\"center\" valign=\"top\" style=\"font-size:14px;\">\n\n            $1\n\n          </td>\n        </tr>\n      </table>\n    <!--[if (gte mso 9)|(IE)]>\n    </td>\n    </tr>\n    </table>\n    <![endif]-->\n  </td>\n</tr>\n",
+		"description": "",
+		"scope": ""
+	},
+	"hgrid2": {
+		"prefix": "hgrid2",
+		"body": "\n<tr>\n  <td align=\"center\" valign=\"top\" width=\"100%\">\n\n    <!--[if (gte mso 9)|(IE)]>\n    <table align=\"center\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"600\">\n    <tr>\n    <td align=\"center\" valign=\"top\" width=\"600\">\n    <![endif]-->\n    <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"max-width:600px;\" bgcolor=\"#FFFFFF\">\n      <tr>\n        <td align=\"center\" valign=\"top\" style=\"font-size:0;\">\n          <!--[if (gte mso 9)|(IE)]>\n          <table align=\"center\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"600\">\n          <tr>\n          <td align=\"left\" valign=\"top\" width=\"295\">\n          <![endif]-->\n          <div style=\"display:inline-block; max-width:295px; vertical-align:top; width:100%;\">\n            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"max-width:295px;\" class=\"deviceWidth\">\n              <tr>\n                <td align=\"center\" valign=\"top\" style=\"font-size:14px;\">\n\n                  $1\n\n                </td>\n              </tr>\n            </table>\n          </div>\n          <!--[if (gte mso 9)|(IE)]>\n          </td>\n          <td align=\"left\" valign=\"top\" width=\"295\">\n          <![endif]-->\n          <div style=\"display:inline-block; max-width:295px; vertical-align:top; width:100%;\">\n            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"max-width:295px;\" class=\"deviceWidth\">\n              <tr>\n                <td align=\"center\" valign=\"top\" style=\"font-size:14px;\">\n\n                  $2 \n\n                </td>\n              </tr>\n            </table>\n          </div>\n          <!--[if (gte mso 9)|(IE)]>\n          </td>\n          </tr>\n          </table>\n          <![endif]-->\n        </td>\n      </tr>\n    </table>\n    <!--[if (gte mso 9)|(IE)]>\n    </td>\n    </tr>\n    </table>\n    <![endif]-->\n\n  </td>\n</tr>\n",
+		"description": "",
+		"scope": ""
+	},
+	"hgrid3": {
+		"prefix": "hgrid3",
+		"body": "\n<tr>\n  <td align=\"center\" valign=\"top\" width=\"100%\">\n    <!--[if (gte mso 9)|(IE)]>\n    <table align=\"center\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"600\">\n    <tr>\n    <td align=\"center\" valign=\"top\" width=\"600\">\n    <![endif]-->\n    <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"max-width:600px;\" bgcolor=\"#FFFFFF\">\n      <tr>\n        <td align=\"center\" valign=\"top\" style=\"font-size:0;\">\n          <!--[if (gte mso 9)|(IE)]>\n          <table align=\"center\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"600\">\n          <tr>\n          <td align=\"left\" valign=\"top\" width=\"195\">\n          <![endif]-->\n          <div style=\"display:inline-block; max-width:195px; vertical-align:top; width:100%;\">\n            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"max-width:195px;\" class=\"deviceWidth\">\n              <tr>\n                <td align=\"center\" valign=\"top\" style=\"font-size:14px;\">\n\n                  $1\n\n                </td>\n              </tr>\n            </table>\n          </div>\n          <!--[if (gte mso 9)|(IE)]>\n          </td>\n          <td align=\"left\" valign=\"top\" width=\"195\">\n          <![endif]-->\n          <div style=\"display:inline-block; max-width:195px; vertical-align:top; width:100%;\">\n            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"max-width:195px;\" class=\"deviceWidth\">\n              <tr>\n                <td align=\"center\" valign=\"top\" style=\"font-size:14px;\">\n\n                  $2\n\n                </td>\n              </tr>\n            </table>\n          </div>\n          <!--[if (gte mso 9)|(IE)]>\n          </td>\n          <td align=\"left\" valign=\"top\" width=\"195\">\n          <![endif]-->\n          <div style=\"display:inline-block; max-width:195px; vertical-align:top; width:100%;\">\n            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"max-width:195px;\" class=\"deviceWidth\">\n              <tr>\n                <td align=\"center\" valign=\"top\" style=\"font-size:14px;\">\n\n                  $3\n\n                </td>\n              </tr>\n            </table>\n          </div>\n          <!--[if (gte mso 9)|(IE)]>\n          </td>\n          </tr>\n          </table>\n          <![endif]-->\n        </td>\n      </tr>\n    </table>\n    <!--[if (gte mso 9)|(IE)]>\n    </td>\n    </tr>\n    </table>\n    <![endif]-->\n  </td>\n</tr>\n",
+		"description": "",
+		"scope": ""
+	},
+	"img": {
+		"prefix": "img",
+		"body": "\n<img src=\"images/$1\" width=\"$2\" height=\"$3\" style=\"margin:0; padding:0; border:none; display:block;\" border=\"0\" class=\"img\" alt=\"$4\">\n",
+		"description": "",
+		"scope": ""
+	},
+	"mobileblock": {
+		"prefix": "mobileblock",
+		"body": "\n<!--[if !mso]><!-- -->\n<div class=\"mobileOn\" style=\"font-size: 0; max-height: 0; overflow: hidden; display: none\">                \n  <table width=\"320\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" class=\"mobile\" align=\"center\">    \n    <tr>\n      <td align=\"center\" style=\"color: #000000; font-size: 12px; line-height: 18px;\">\n        $1\n      </td>\n    </tr>\n  </table>                                                                    \n</div>                                                                    \n<!--<![endif]-->\n",
+		"description": "",
+		"scope": ""
+	},
+	"mspace": {
+		"prefix": "mspace",
+		"body": "\n<td height=\"$1\" style=\"font-size:$1px; line-height:$1px;\" class=\"mobileOn\"></td>\n",
+		"description": "",
+		"scope": ""
+	},
+	"rgrid1": {
+		"prefix": "rgrid1",
+		"body": "\n<table width=\"640\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"wrapper\" bgcolor=\"#FFFFFF\">\n  <tr>\n    <td height=\"10\" style=\"font-size:10px; line-height:10px;\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td align=\"center\" valign=\"top\">\n\n      <table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"container\">\n        <tr>\n          <td align=\"center\" valign=\"top\">\n            $1\n          </td>\n        </tr>\n      </table>\n\n    </td>\n  </tr>\n  <tr>\n    <td height=\"10\" style=\"font-size:10px; line-height:10px;\">&nbsp;</td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"rgrid2": {
+		"prefix": "rgrid2",
+		"body": "\n<table width=\"640\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"wrapper\" bgcolor=\"#FFFFFF\">\n  <tr>\n    <td height=\"10\" style=\"font-size:10px; line-height:10px;\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td align=\"center\" valign=\"top\">\n\n      <table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"container\">\n        <tr>\n          <td width=\"300\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $1\n          </td>\n          <td width=\"300\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $2\n          </td>\n        </tr>\n      </table>\n\n    </td>\n  </tr>\n  <tr>\n    <td height=\"10\" style=\"font-size:10px; line-height:10px;\">&nbsp;</td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"rgrid3": {
+		"prefix": "rgrid3",
+		"body": "\n<table width=\"640\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"wrapper\" bgcolor=\"#FFFFFF\">\n  <tr>\n   <td height=\"10\" style=\"font-size:10px; line-height:10px;\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td align=\"center\" valign=\"top\">\n\n      <table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"container\">\n        <tr>\n            <td width=\"200\" class=\"mobile\" align=\"center\" valign=\"top\">\n              $1\n            </td>\n            <td width=\"200\" class=\"mobile\" align=\"center\" valign=\"top\">\n              $2\n            </td>\n            <td width=\"200\" class=\"mobile\" align=\"center\" valign=\"top\">\n              $3\n            </td>\n        </tr>\n      </table>\n\n    </td>\n  </tr>\n  <tr>\n    <td height=\"10\" style=\"font-size:10px; line-height:10px;\">&nbsp;</td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"rgrid4": {
+		"prefix": "rgrid4",
+		"body": "\n<table width=\"640\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"wrapper\" bgcolor=\"#FFFFFF\">\n  <tr>\n    <td height=\"10\" style=\"font-size:10px; line-height:10px;\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td align=\"center\" valign=\"top\">\n\n      <table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"container\">\n        <tr>\n          <td width=\"150\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $1\n          </td>\n          <td width=\"150\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $2\n          </td>\n          <td width=\"150\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $3\n          </td>\n          <td width=\"150\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $4\n          </td>\n        </tr>\n      </table>\n\n    </td>\n  </tr>\n  <tr>\n    <td height=\"10\" style=\"font-size:10px; line-height:10px;\">&nbsp;</td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"rgrid5": {
+		"prefix": "rgrid5",
+		"body": "\n<table width=\"640\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"wrapper\" bgcolor=\"#FFFFFF\">\n  <tr>\n    <td height=\"10\" style=\"font-size:10px; line-height:10px;\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td align=\"center\" valign=\"top\">\n\n      <table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"container\">\n        <tr>\n          <td width=\"120\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $1\n          </td>\n          <td width=\"120\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $2\n          </td>\n          <td width=\"120\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $3\n          </td>\n          <td width=\"120\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $4\n          </td>\n          <td width=\"120\" class=\"mobile\" align=\"center\" valign=\"top\">\n            $5\n          </td>\n        </tr>\n      </table>\n\n    </td>\n  </tr>\n  <tr>\n    <td height=\"10\" style=\"font-size:10px; line-height:10px;\">&nbsp;</td>\n  </tr>\n</table>\n",
+		"description": "",
+		"scope": ""
+	},
+	"row": {
+		"prefix": "row",
+		"body": "\n<tr>\n  <td align=\"center\" valign=\"top\">\n    $1\n  </td>\n</tr>\n",
+		"description": "",
+		"scope": ""
+	},
+	"space": {
+		"prefix": "space",
+		"body": "\n<tr>\n  <td height=\"$1\" style=\"font-size:$1px; line-height:$1px;\"></td>\n</tr>\n",
+		"description": "",
+		"scope": ""
+	}
+}
